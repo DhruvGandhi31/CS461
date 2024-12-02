@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Quicksort implementation using MPI
+
 void quicksort(int *arr, int low, int high);
 int partition(int *arr, int low, int high);
 
